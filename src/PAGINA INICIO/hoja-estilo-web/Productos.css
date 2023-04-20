@@ -1,0 +1,202 @@
+.titulo-productos{
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor-productos{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    right: 0;
+    top: 37%;
+}
+
+/* PRODUCTO INTELIGENCIA ARTIFICIAL */
+
+.cuadro-inteligencia{
+    display: flex;
+    position: absolute;
+    left: 4%;
+    top: 35%;
+}
+.cuadro-inteligencia figure{
+    position:relative;
+    height: 300px;
+    cursor: pointer;
+    width: 370px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 20px 15px 25px rgba(0,0,0,0.50);
+}
+.cuadro-inteligencia figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+.cuadro-inteligencia figure .capa-inteligencia{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.cuadro-inteligencia figure:hover > .capa-inteligencia {
+    opacity: 1;
+    visibility: visible;
+}
+.cuadro-inteligencia figure:hover > .capa-inteligencia h3{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.cuadro-inteligencia figure:hover > img{
+    transform: scale(1.3);
+}
+.cuadro-inteligencia figure .capa-inteligencia h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+    margin-top: 30px;
+}
+.cuadro-inteligencia figure .capa-inteligencia p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* PRODUCTO AUTOMATIZACION DE PROCESOS */
+
+.cuadro-automatizacion{
+    display: flex;
+    position: absolute;
+    left: 36%;
+    top: 35%;
+}
+
+.cuadro-automatizacion figure{
+    position:relative;
+    height: 300px;
+    cursor: pointer;
+    width: 370px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 20px 15px 25px rgba(0,0,0,0.50);
+}
+.cuadro-automatizacion figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+.cuadro-automatizacion figure .capa-automatizacion{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.cuadro-automatizacion figure:hover > .capa-automatizacion {
+    opacity: 1;
+    visibility: visible;
+}
+.cuadro-automatizacion figure:hover > .capa-automatizacion h3{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.cuadro-automatizacion figure:hover > img{
+    transform: scale(1.3);
+}
+.cuadro-automatizacion figure .capa-automatizacion h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+    margin-top: 30px;
+}
+.cuadro-automatizacion figure .capa-automatizacion p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* PRODUCTO BIG DATA */
+
+.cuadro-big{
+    display: flex;
+    position: absolute;
+    left: 68%;
+    top: 35%;
+}
+.cuadro-big figure{
+    position:relative;
+    height: 300px;
+    cursor: pointer;
+    width: 370px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 20px 15px 25px rgba(0,0,0,0.50);
+}
+.cuadro-big figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+.cuadro-big figure .capa-big{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.cuadro-big figure:hover > .capa-big {
+    opacity: 1;
+    visibility: visible;
+}
+.cuadro-big figure:hover > .capa-big h3{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.cuadro-big figure:hover > img{
+    transform: scale(1.3);
+}
+.cuadro-big figure .capa-big h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+    margin-top: 30px;
+}
+.cuadro-big figure .capa-big p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
